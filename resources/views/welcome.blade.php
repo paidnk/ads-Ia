@@ -243,7 +243,7 @@
         </section>
 
         <section class="plans">
-            <div class="sec-title" style="width: 100%;">
+            <div class="sec-title" style="width: 90%;">
                 <h2 style="font-size: 20px; line-height: 1;">Vamos lá,</h2>
                 <h1 style="font-size: 70px; line-height: 1;">Escolha o Seu Plano</h1>
                 <p>Estes são os planos atualmente disponíveis na ADSROCK em parceria com a Loja Integrada. Caso queira um plano com um tempo de vigência mais curto, consulte-nos</p>

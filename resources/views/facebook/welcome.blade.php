@@ -6,4 +6,17 @@
 
 
 
+        <div class="content-area">
+            <div class="content-boxes">
+                <box>
+                    <box-title>
+                        <h1>Análise de campanhas</h1>
+                        <span>Faça uma análise detalhada de suas campanhas.</span>
+                    </box-title>
+                </box>
+            </div>
+        </div>
+
+
+
 </x-app-layout>

@@ -1,12 +1,5 @@
-#sidebarToggle {
-      z-index: 2;
-      position: relative;
-      font-size: 22px;
-      left: 90%;
-}
-
 .sidebar {
-      width: 250px;
+      width: 100px;
       position: fixed;
       left: 0;
       top: 0;
@@ -14,13 +7,30 @@
       background-color: white;
       color: rgb(58, 58, 58);
       padding: 20px;
+      text-align: center;
+      transition: 0.4s ease;
   }
+
+
+  .sidebar:hover {
+    width: 200px;
+}
   
+.sidebar:hover .sidebar-menu li a{
+    display: flex;
+}
+
   .sidebar-header {
       padding: 10px 0;
       text-align: center;
   }
   
+
+    .sidebar li i:hover {
+        color: #1e26ff;
+        cursor: pointer;
+    }
+
   .sidebar-menu {
       list-style: none;
       padding: 0;
@@ -31,17 +41,15 @@
   }
   
   .sidebar-menu li i{
-    font-size: 24px;
+    font-size: 28px;
 }
 
 
   .sidebar-menu li a {
+      display: none;
       color: rgb(58, 58, 58);
       text-decoration: none;
       transition: color 0.3s;
       font-weight: 500;
-  }
-  
-  .sidebar-menu li a:hover {
-      color: #1e90ff;
+      transition: 0.4s ease;
   }

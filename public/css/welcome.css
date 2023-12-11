@@ -155,14 +155,14 @@ header.sticky {
       width: 100%;
       height: 950px;  /* Defina uma altura específica */
       background-image: url('/images/BG-SITE.png');
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
   }
   
 
 .main-info {
       position: absolute;
-      top: 40%;
+      top: 30%;
       left: 10%;
       width: 40%;
 }
@@ -171,14 +171,15 @@ header.sticky {
       margin: 0;
       font-family: 'Poppins', sans-serif;
       font-weight: 700;
-      font-size: 40px;
+      font-size: 35px;
+      color: #0028d5;
 }
 
 .main-info p {
       margin: 0;
       font-family: 'Poppins', sans-serif;
       font-weight: 200;
-      font-size: 20px;
+      font-size: 18px;
       color: rgb(73, 73, 73);
       margin-bottom: 20px;
 }
@@ -829,7 +830,7 @@ header.sticky {
 
   .sixty-flex-box {
       background-color: #fff;
-      width: 1600px;
+      width: 90%;
       height: 650px;
       display: flex;
       justify-content: space-evenly;
@@ -852,7 +853,7 @@ header.sticky {
   .box-content-sixty h1 {
     color: #0028d5;
     font-family: 'Poppins', sans-serif;
-    font-size: 65px;
+    font-size: 50px;
     font-weight: bold;
     font-style: normal;
     line-height: 1;
@@ -1082,6 +1083,7 @@ header.sticky {
       margin: 0 auto;
       width: 50%;
       display: grid;
+      justify-content: center;
       grid-template-columns: 2fr 1fr; /* Define duas colunas, uma maior à esquerda e uma menor à direita */
       grid-template-rows: 1fr 1fr; /* Define duas linhas de altura igual */
   }
@@ -1121,12 +1123,11 @@ header.sticky {
     .iframes-carrossel-two {
         display: flex;
         flex-direction: column;
-        width: auto;
     }
 
 
     .iframes-carrossel-two iframe {
-        width: 350px;
+        width: 90%;
         height: 200px;
         margin-top: 10px;
     }
@@ -1143,8 +1144,8 @@ header.sticky {
     }
 
     .iframes-carrossel iframe {
-        width: 600px;
-        height: 300px;
+        width: 90%;
+        height: 200px;
         margin-top: 10px;
     }
 
@@ -1156,8 +1157,8 @@ header.sticky {
 
 
     .iframes-carrossel-two iframe {
-        width: 600px;
-        height: 300px;
+        width: 90%;
+        height: 200px;
         margin-top: 10px;
     }
 
@@ -1275,6 +1276,10 @@ header.sticky {
         margin-bottom: 60px;
     }
 
+    .plans-desc {
+        font-size: 16px;
+    }
+
     .plans-box {
         flex-direction: column-reverse;
         align-items: center;
@@ -1300,14 +1305,13 @@ header.sticky {
         align-items: center;
     }
 
-
     .plans-card {
         margin: 0;
         width: 80%;
     }
 
     .plans-desc ul li {
-        font-size: 22px;
+        font-size: 14px;
     }
 
 }

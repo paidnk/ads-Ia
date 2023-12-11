@@ -35,3 +35,10 @@ body {
 .welcome-class span p{
       margin-left: 5px;
 }
+
+.content-area {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
